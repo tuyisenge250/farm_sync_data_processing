@@ -41,7 +41,6 @@ Thumbs.db
 # ---- Data & output directories ----
 outputs/
 plots/
-*.csv
 *.xlsx
 *.json
 
