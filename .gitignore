@@ -1,0 +1,65 @@
+# ===================================
+# Python / Data Science .gitignore
+# For: FarmerSync Preprocessing Project
+# ===================================
+
+# ---- Python cache ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual environments ----
+venv/
+env/
+.venv/
+ENV/
+
+# ---- Jupyter Notebook checkpoints ----
+.ipynb_checkpoints/
+
+# ---- VS Code ----
+.vscode/
+*.code-workspace
+
+# ---- OS-specific files ----
+.DS_Store
+Thumbs.db
+
+# ---- Environment & configuration ----
+*.env
+.env.*
+*.ini
+*.cfg
+*.toml
+
+# ---- Logs and temporary files ----
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ---- Data & output directories ----
+data/raw/
+data/interim/
+data/tmp/
+outputs/
+plots/
+*.csv
+*.xlsx
+*.json
+
+# ---- Model and serialization files ----
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# ---- Jupyter Notebook hidden metadata ----
+*.ipynb_checkpoints
+
+# ---- System / IDE cache ----
+.idea/
+.pytest_cache/
+.mypy_cache/
+.cache/
