@@ -39,9 +39,6 @@ Thumbs.db
 *.swp
 
 # ---- Data & output directories ----
-data/raw/
-data/interim/
-data/tmp/
 outputs/
 plots/
 *.csv
